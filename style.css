@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header CSS Start */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 20px;
+    height: 1000px;
+}
+ .header nav{
+    display: flex;
+    justify-content: space-around;
+}
+.header nav ul{
+    display: flex;
+    gap: 20px;
+    
+}
+.header nav ul li{
+    list-style: none;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+    
+
+.header-btn{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px 22px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #FF900E;
+    border: none;
+}
+.header-img{
+    text-align: center;
+    margin-top: 30px;
+}
+.header-img img{
+    width: 800px;
+    text-align: center;
+}
